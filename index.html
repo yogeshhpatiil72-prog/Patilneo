@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090d">
+  <meta name="description" content="PATILNEO — discover movies and series.">
+  <title>PATILNEO — Movies & Series</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">PATIL<span>NEO</span></a>
+    <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search movies..." aria-label="Search movies"></label>
+    <button class="avatar" aria-label="Profile">Y</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">PATILNEO ORIGINAL EXPERIENCE</p>
+        <h1>Stories that<br><span>stay with you.</span></h1>
+        <p class="hero-copy">Discover your next favourite movie, from thrilling action to unforgettable romance.</p>
+        <a class="primary-btn" href="#catalog">Explore movies <span>→</span></a>
+        <p class="notice">Demo catalogue · Videos are not included</p>
+      </div>
+      <div class="hero-mark">CF<span>+</span></div>
+    </section>
+
+    <section class="category-wrap">
+      <div class="section-heading"><div><p class="eyebrow">FIND YOUR MOOD</p><h2>Browse categories</h2></div></div>
+      <div class="categories" id="categories">
+        <button class="category active" data-category="All">All titles</button>
+        <button class="category" data-category="Bollywood">Bollywood</button>
+        <button class="category" data-category="South">South</button>
+        <button class="category" data-category="Hollywood">Hollywood</button>
+        <button class="category" data-category="Marathi">Marathi</button>
+        <button class="category" data-category="Web Series">Web Series</button>
+      </div>
+    </section>
+
+    <section class="catalog section" id="catalog">
+      <div class="section-heading">
+        <div><p class="eyebrow">HANDPICKED FOR YOU</p><h2 id="catalog-title">Popular on PatilNeo</h2></div>
+        <span class="title-count" id="title-count"></span>
+      </div>
+      <div class="movies" id="movies" aria-live="polite">
+        <div class="loading">Loading titles…</div>
+      </div>
+      <p class="empty hidden" id="empty">No titles found. Try another search or category.</p>
+    </section>
+
+    <section class="watchlist-section section" id="watchlist-section">
+      <div class="section-heading"><div><p class="eyebrow">SAVED FOR LATER</p><h2>Your watchlist</h2></div></div>
+      <div class="movies" id="watchlist"></div>
+      <p class="watchlist-empty" id="watchlist-empty">Save a title with the ♡ button and it will appear here.</p>
+    </section>
+  </main>
+
+  <footer><a class="brand small" href="#">PATIL<span>NEO</span></a><p>Demo streaming interface. Add only videos you own or are licensed to stream.</p><span>© 2026 PATILNEO</span></footer>
+  <nav class="mobile-nav">
+    <a href="index.html"><span>⌂</span>Home</a><a href="#catalog"><span>▤</span>Explore</a><a href="#watchlist-section"><span>♡</span>Watchlist</a>
+  </nav>
+  <script src="script.js"></script>
+</body>
+</html>

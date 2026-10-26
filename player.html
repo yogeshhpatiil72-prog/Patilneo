@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090d">
+  <title>Watch — PATILNEO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">PATIL<span>NEO</span></a>
+    <a class="category" href="index.html">← Back to home</a>
+  </header>
+  <main class="player-wrap">
+    <video id="video" controls playsinline preload="metadata"></video>
+    <h1 id="title">Loading title…</h1>
+    <p id="description">Loading details…</p>
+    <p id="status" class="empty"></p>
+    <a class="primary-btn" href="index.html">Browse more titles →</a>
+  </main>
+  <footer><p>Only stream content you own or have permission to distribute.</p></footer>
+  <script>
+    async function loadPlayer() {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id");
+      const title = document.getElementById("title");
+      const description = document.getElementById("description");
+      const status = document.getElementById("status");
+      const video = document.getElementById("video");
+
+      try {
+        const response = await fetch("movies.json");
+        if (!response.ok) throw new Error("Catalogue unavailable");
+        const movies = await response.json();
+        const movie = movies.find(item => String(item.id) === id);
+
+        if (!movie) {
+          title.textContent = "Title not found";
+          description.textContent = "Return to the home page and choose a title.";
+          return;
+        }
+
+        title.textContent = movie.title;
+        description.textContent = movie.description || "";
+        if (movie.poster) video.poster = movie.poster;
+
+        if (movie.video && movie.video.trim()) {
+          video.src = movie.video;
+          status.textContent = "";
+        } else {
+          status.textContent = "This is a demo title. To play a video, add a direct, authorized MP4/WebM video URL in movies.json.";
+        }
+      } catch (error) {
+        title.textContent = "Unable to load title";
+        description.textContent = "Check that movies.json is uploaded and the site is published.";
+      }
+    }
+    loadPlayer();
+  </script>
+</body>
+</html>

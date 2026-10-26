@@ -1,0 +1,272 @@
+[
+  {
+    "id": "demo-1",
+    "title": "Midnight Run",
+    "category": "Hollywood",
+    "year": 2025,
+    "poster": "https://placehold.co/500x750/24152e/ffffff?text=Midnight%0ARun",
+    "video": "",
+    "description": "A sample action listing for the PATILNEO demo catalogue."
+  },
+  {
+    "id": "demo-2",
+    "title": "Dil Se Again",
+    "category": "Bollywood",
+    "year": 2025,
+    "poster": "https://placehold.co/500x750/401724/ffffff?text=Dil%0ASe%0AAgain",
+    "video": "",
+    "description": "A sample romance listing. Add an authorized video URL to enable playback."
+  },
+  {
+    "id": "demo-3",
+    "title": "Southern Storm",
+    "category": "South",
+    "year": 2025,
+    "poster": "https://placehold.co/500x750/17313a/ffffff?text=Southern%0AStorm",
+    "video": "",
+    "description": "A sample South cinema listing for the demo catalogue."
+  },
+  {
+    "id": "demo-4",
+    "title": "Mati",
+    "category": "Marathi",
+    "year": 2025,
+    "poster": "https://placehold.co/500x750/3a2a19/ffffff?text=Mati",
+    "video": "",
+    "description": "A sample Marathi cinema listing for the demo catalogue."
+  },
+  {
+    "id": "demo-5",
+    "title": "The Last Signal",
+    "category": "Web Series",
+    "year": 2025,
+    "poster": "https://placehold.co/500x750/182a20/ffffff?text=The%0ALast%0ASignal",
+    "video": "",
+    "description": "A sample web series listing for the demo catalogue."
+  },
+  {
+    "id": "demo-6",
+    "title": "Red Horizon",
+    "category": "Hollywood",
+    "year": 2024,
+    "poster": "https://placehold.co/500x750/3b171a/ffffff?text=Red%0AHorizon",
+    "video": "",
+    "description": "A sample drama listing for the demo catalogue."
+  },
+  {
+    "id": "demo-7",
+    "title": "City of Dreams",
+    "category": "Bollywood",
+    "year": 2024,
+    "poster": "https://placehold.co/500x750/2b2140/ffffff?text=City%0Aof%0ADreams",
+    "video": "",
+    "description": "Demo title — placeholder artwork only; no movie is included."
+  },
+  {
+    "id": "demo-8",
+    "title": "Love in December",
+    "category": "Bollywood",
+    "year": 2025,
+    "poster": "https://placehold.co/500x750/45202f/ffffff?text=Love%0Ain%0ADecember",
+    "video": "",
+    "description": "Demo romance title — add only licensed video content."
+  },
+  {
+    "id": "demo-9",
+    "title": "The Final Chase",
+    "category": "Bollywood",
+    "year": 2023,
+    "poster": "https://placehold.co/500x750/3d2418/ffffff?text=The%0AFinal%0AChase",
+    "video": "",
+    "description": "Demo action title for the catalogue."
+  },
+  {
+    "id": "demo-10",
+    "title": "Silent Witness",
+    "category": "Bollywood",
+    "year": 2024,
+    "poster": "https://placehold.co/500x750/1b2639/ffffff?text=Silent%0AWitness",
+    "video": "",
+    "description": "Demo mystery title for the catalogue."
+  },
+  {
+    "id": "demo-11",
+    "title": "Tiger Valley",
+    "category": "South",
+    "year": 2025,
+    "poster": "https://placehold.co/500x750/36221b/ffffff?text=Tiger%0AValley",
+    "video": "",
+    "description": "Demo action title for the catalogue."
+  },
+  {
+    "id": "demo-12",
+    "title": "One Last Promise",
+    "category": "South",
+    "year": 2024,
+    "poster": "https://placehold.co/500x750/3d1e30/ffffff?text=One%0ALast%0APromise",
+    "video": "",
+    "description": "Demo romance title for the catalogue."
+  },
+  {
+    "id": "demo-13",
+    "title": "Kingdom of Fire",
+    "category": "South",
+    "year": 2023,
+    "poster": "https://placehold.co/500x750/40261b/ffffff?text=Kingdom%0Aof%0AFire",
+    "video": "",
+    "description": "Demo fantasy title for the catalogue."
+  },
+  {
+    "id": "demo-14",
+    "title": "The Hidden Temple",
+    "category": "South",
+    "year": 2025,
+    "poster": "https://placehold.co/500x750/19333a/ffffff?text=The%0AHidden%0ATemple",
+    "video": "",
+    "description": "Demo adventure title for the catalogue."
+  },
+  {
+    "id": "demo-15",
+    "title": "Beyond the Stars",
+    "category": "Hollywood",
+    "year": 2025,
+    "poster": "https://placehold.co/500x750/18263d/ffffff?text=Beyond%0Athe%0AStars",
+    "video": "",
+    "description": "Demo science-fiction title for the catalogue."
+  },
+  {
+    "id": "demo-16",
+    "title": "Cold Case 9",
+    "category": "Hollywood",
+    "year": 2024,
+    "poster": "https://placehold.co/500x750/20242d/ffffff?text=Cold%0ACase%0A9",
+    "video": "",
+    "description": "Demo mystery title for the catalogue."
+  },
+  {
+    "id": "demo-17",
+    "title": "Ocean of Secrets",
+    "category": "Hollywood",
+    "year": 2023,
+    "poster": "https://placehold.co/500x750/15313a/ffffff?text=Ocean%0Aof%0ASecrets",
+    "video": "",
+    "description": "Demo thriller title for the catalogue."
+  },
+  {
+    "id": "demo-18",
+    "title": "The Last Kingdom",
+    "category": "Hollywood",
+    "year": 2025,
+    "poster": "https://placehold.co/500x750/35252a/ffffff?text=The%0ALast%0AKingdom",
+    "video": "",
+    "description": "Demo adventure title for the catalogue."
+  },
+  {
+    "id": "demo-19",
+    "title": "Paus Ala",
+    "category": "Marathi",
+    "year": 2025,
+    "poster": "https://placehold.co/500x750/254033/ffffff?text=Paus%0AAla",
+    "video": "",
+    "description": "Demo Marathi drama title for the catalogue."
+  },
+  {
+    "id": "demo-20",
+    "title": "Punha Ekda",
+    "category": "Marathi",
+    "year": 2024,
+    "poster": "https://placehold.co/500x750/4a2630/ffffff?text=Punha%0AEkda",
+    "video": "",
+    "description": "Demo Marathi romance title for the catalogue."
+  },
+  {
+    "id": "demo-21",
+    "title": "Gaav Wala",
+    "category": "Marathi",
+    "year": 2023,
+    "poster": "https://placehold.co/500x750/342b1d/ffffff?text=Gaav%0AWala",
+    "video": "",
+    "description": "Demo Marathi comedy title for the catalogue."
+  },
+  {
+    "id": "demo-22",
+    "title": "Rang Maza Vegla",
+    "category": "Marathi",
+    "year": 2025,
+    "poster": "https://placehold.co/500x750/312746/ffffff?text=Rang%0AMaza%0AVegla",
+    "video": "",
+    "description": "Demo Marathi drama title for the catalogue."
+  },
+  {
+    "id": "demo-23",
+    "title": "Dark Signal",
+    "category": "Web Series",
+    "year": 2025,
+    "poster": "https://placehold.co/500x750/20252e/ffffff?text=Dark%0ASignal",
+    "video": "",
+    "description": "Demo suspense web-series listing."
+  },
+  {
+    "id": "demo-24",
+    "title": "College Days",
+    "category": "Web Series",
+    "year": 2024,
+    "poster": "https://placehold.co/500x750/35243c/ffffff?text=College%0ADays",
+    "video": "",
+    "description": "Demo youth web-series listing."
+  },
+  {
+    "id": "demo-25",
+    "title": "The Family Code",
+    "category": "Web Series",
+    "year": 2025,
+    "poster": "https://placehold.co/500x750/24352c/ffffff?text=The%0AFamily%0ACode",
+    "video": "",
+    "description": "Demo drama web-series listing."
+  },
+  {
+    "id": "demo-26",
+    "title": "Case Files: Pune",
+    "category": "Web Series",
+    "year": 2024,
+    "poster": "https://placehold.co/500x750/29303a/ffffff?text=Case%0AFiles:%0APune",
+    "video": "",
+    "description": "Demo crime-mystery web-series listing."
+  },
+  {
+    "id": "demo-27",
+    "title": "Laugh Track",
+    "category": "Web Series",
+    "year": 2023,
+    "poster": "https://placehold.co/500x750/4a2e1c/ffffff?text=Laugh%0ATrack",
+    "video": "",
+    "description": "Demo comedy web-series listing."
+  },
+  {
+    "id": "demo-28",
+    "title": "The Night Shift",
+    "category": "Web Series",
+    "year": 2025,
+    "poster": "https://placehold.co/500x750/1c2d36/ffffff?text=The%0ANight%0AShift",
+    "video": "",
+    "description": "Demo thriller web-series listing."
+  },
+  {
+    "id": "demo-29",
+    "title": "Campus Love",
+    "category": "Bollywood",
+    "year": 2023,
+    "poster": "https://placehold.co/500x750/43253a/ffffff?text=Campus%0ALove",
+    "video": "",
+    "description": "Demo romance title for the catalogue."
+  },
+  {
+    "id": "demo-30",
+    "title": "Mission Zero",
+    "category": "South",
+    "year": 2024,
+    "poster": "https://placehold.co/500x750/38241d/ffffff?text=Mission%0AZero",
+    "video": "",
+    "description": "Demo action title for the catalogue."
+  }
+]
